@@ -1,0 +1,148 @@
+
+body{
+    background-color: #13a0d2;
+   
+    
+    color: #13a0d2;
+   
+}
+
+*{
+ 
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+
+}
+.navbar{
+height: 50px;
+padding: 10px 20px;
+display: flex;
+justify-content: space-around;
+background-color: #7f64d2;
+color:white;
+font-size: 20px;
+font-weight: 900;
+align-items: center;
+}
+
+.navitem1{
+color: #eded38;
+width: 32%;
+font-size: 30px;
+}
+
+
+
+
+
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: auto;
+
+}
+
+
+.box {
+    border-radius: 10px;
+    background-color: white;
+    width: 210px;
+    margin: 16px 2px;
+    box-shadow: 6px 6px 8px #29232c;
+    padding: 16px 6px;
+}
+
+.products_types {
+   
+    padding: 6px 0px;
+    
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.products_date {
+   
+
+    padding: 6px 0px;
+    font-size: 20px;
+  
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.products_rate {
+   
+    padding: 7px 17px;
+    border: 1px solid #13a0d2;
+    font-size: 18px;
+    font-family: cursive;
+    color: white;
+}
+
+
+.pro_dec{
+  
+
+    height: 91px;
+    border: 1px solid #13a0d2;
+}
+
+input{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 11px;
+    font-family: cursive;
+    width: 242px;
+}
+
+button{
+    padding: 10px 45px;
+    border-radius: 18px;
+    background-color: #13a0d2;
+   
+     cursor: pointer;
+     font-family: cursive;
+   
+}
+
+h1{
+    color:white;
+    font-family: cursive;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: antiquewhite;
+    width: 100%;
+    background-color: rgb(21, 5, 5);
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.add{height: 250px;}
+
+
+form{display: flex;
+justify-content: space-evenly;
+margin:100px 0px;
+}
+
+textarea{
+    padding: 3px 11px;
+    border-radius: 10px;
+    width: 216px;
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:22px 0px;
+}
